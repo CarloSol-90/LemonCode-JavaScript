@@ -1,0 +1,101 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;400&family=Montserrat:wght@100;400&display=swap");
+
+/*Estilos generales*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bitter", serif;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+/*Navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.menu-icon img {
+  width: 25px;
+  height: 25px;
+  margin-right: 50px;
+}
+
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #212429;
+  text-decoration: none;
+  size: 16px;
+}
+
+.menu-icon-right img {
+  width: 25px;
+  height: 25px;
+  margin-left: 50px;
+}
+
+.custom-hr {
+  margin: 0 20px; /* Ajusta los márgenes según lo que necesites */
+  border: none;
+  border-top: 1px solid #212429; /* Puedes ajustar el color y el estilo de la línea */
+}
+
+h1 {
+  color: #212429;
+  font-weight: 900;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+h1::first-letter {
+  font-size: 30px;
+}
+
+section #cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.image-row {
+  position: relative;
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+.image-section {
+  padding: 50px;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-row p {
+  color: #212429;
+  margin: 10px 20px;
+}
+*/
